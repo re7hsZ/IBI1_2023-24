@@ -20,10 +20,9 @@ for line in input_file:
         n = regex.findall(repetitive_seq, seq, overlapped = True) # add overlapped to search overlapping areas
         count = len(n)
         if count != 0: # if have the repetitive sequence
-            name[i-1] = name[i-1] + ' has '+ str(count) +' '+ repetitive_seq + '\n'
+            name[i-1] = name[i-1] + ' ' + str(count) + '\n' + seq + '\n'
             output_file.write(name[i-1]) # write
         i += 1
         seq = ''
     else:
         seq += re.sub(r'\n','', line) # stroe the whole sequence without '\n' in the string
-
