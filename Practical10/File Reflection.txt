@@ -1,0 +1,4 @@
+I think that this practical is easy. 
+I learn a lot about matplotlib.pyplot and unmpy.array on the Internet to finish the practical.
+I prefer the spatial_SIR. Because it is 2D which is more interesting than line graphs.
+The most important thing I learned is np.random.choice.
