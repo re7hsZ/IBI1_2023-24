@@ -25,9 +25,19 @@ Y = False
 # Dynamically calculate W based on the values of X and Y
 W = X or Y  # In Python, the 'or' operator represents the logical 'either X or Y'
 #W = 'True'
+
+# Output the truth table for W
+truth_table = {
+    "X": [True, True, False, False],
+    "Y": [True, False, True, False],
+    "W": [False, True, True, False]  # truth table based on the logical 'or' operation
+}
+
+# Print the truth table
+print("Truth table for W:")
 #Outputs are like this
 '''
-X	Y	either X or Y
+X	    Y	    either X or Y
 True	True	False
 True	False	True
 False	True	True
