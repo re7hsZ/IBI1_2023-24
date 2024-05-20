@@ -7,4 +7,4 @@ So, I made the following changes:
 3. I have	used	pseudocode	to	plan	and	comment	my	project.
 
 In Practical6, I was told to write more about my code.
-So, I add some comments about my code.
+So, I add some pseudocodes and comments about my code.
