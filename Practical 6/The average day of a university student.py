@@ -10,9 +10,10 @@ dictionary = {'Sleeping':Sleeping, 'Classes':Classes, 'Studying':Studying, 'TV':
 print(dictionary)
 # import matplotlib
 import matplotlib.pyplot as plt
-# construct a pie chart
+# two list for activities and their time costs
 activity_lables = ['Sleeping', 'Classes', 'Studying', 'TV', 'Music', 'Other']
 time = [Sleeping, Classes, Studying, TV, Music, Other]
+# draw the pie chart
 plt.figure()
 plt.pie(time, labels = activity_lables)
 plt.show()
