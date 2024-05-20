@@ -1,7 +1,6 @@
 # load the matrix
 import blosum as bl
 matrix = bl.BLOSUM(62)
-val = matrix["A"]["Y"]
 # open the folder contains the file
 import os
 os.chdir("/Users/zhuqin/Desktop/academic/IBI/IBI1_2023-24/Practical 13")
