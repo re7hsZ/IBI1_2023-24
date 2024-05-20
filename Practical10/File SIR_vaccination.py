@@ -1,4 +1,3 @@
-# Pseudocode:
 # Import the necessary libraries for numerical operations, plotting, and color mapping.
 import numpy as np
 import matplotlib.pyplot as plt
