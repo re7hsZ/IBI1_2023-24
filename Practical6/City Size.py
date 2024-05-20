@@ -20,7 +20,7 @@ uk_cities_names = ['Edinburgh', 'Glasgow', 'Stirling', 'London']
 china_cities_names = ['Haining', 'Hangzhou', 'Shanghai', 'Beijing']
 
 # Create dictionaries to link city populations with their names
-# Pseudocode: For each city in the list, add an entry to the dictionary with population as key and city name as value
+# For each city in the list, add an entry to the dictionary with population as key and city name as value
 uk = {}
 for i in range(len(uk_cities)):
     uk[uk_cities[i]] = uk_cities_names[i]
@@ -30,12 +30,12 @@ for i in range(len(china_cities)):
     china[china_cities[i]] = china_cities_names[i]
 
 # Sort the city populations in ascending order
-# Pseudocode: Use the sort function to order the populations
+# Use the sort function to order the populations
 uk_cities.sort()
 china_cities.sort()
 
 # After sorting, rearrange the city names to match the sorted populations
-# Pseudocode: Iterate over the sorted populations and update the city names list with corresponding names from the dictionary
+# Iterate over the sorted populations and update the city names list with corresponding names from the dictionary
 uk_cities_names = [uk[city] for city in uk_cities]
 china_cities_names = [china[city] for city in china_cities]
 
@@ -49,7 +49,7 @@ for city_name in china_cities_names:
     print(city_name, ': ', china[city_name])
 
 # Draw the bar plots for the populations of cities in the UK and China
-# Pseudocode: Use matplotlib to create bar plots with city names on the x-axis and populations on the y-axis
+# Use matplotlib to create bar plots with city names on the x-axis and populations on the y-axis
 plt.figure()
 plt.bar(uk_cities_names, uk_cities, color='pink')
 plt.ylabel("Population (millions)") 
