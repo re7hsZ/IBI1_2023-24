@@ -20,6 +20,7 @@ else:
     print("# Running only had a greater improvement on running time.")
 #e is greater
 #Using a combination of running and strength exercises had a greater improvement on running time.
+
 # Boolean variables
 X = True
 Y = False
