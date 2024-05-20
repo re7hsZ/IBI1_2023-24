@@ -14,6 +14,8 @@ print("Improvement from running and strength training:", e) # e = 6
 # Comment explaining which training regime had a greater effect
 if e > d:
     print("# Using a combination of running and strength exercises had a greater improvement on running time.")
+elif d == e:
+    print('d & e are same, two training has the same influence.')
 else:
     print("# Running only had a greater improvement on running time.")
 #e is greater
