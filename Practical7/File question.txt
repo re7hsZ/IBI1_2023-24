@@ -1,4 +1,6 @@
-Plot a boxplot of DALYs across countries in 2019.
-line 35 ~ Line 46
-I plot a boxplot. It is perfect. 
-I only use labels, and others are all default value.
+Question: How has the DALYs changed in the UK over time?
+
+# Line number in dalys.py where the code to answer the question starts: 120
+
+Result:
+The plot generated shows a clear downward trend in DALYs over the years for the United Kingdom, indicating an overall improvement in public health. This could be attributed to advancements in healthcare, lifestyle changes, and better disease prevention strategies. The data aligns with our expectations as modern healthcare systems generally lead to a decrease in disease burden over time.
