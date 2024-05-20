@@ -1,4 +1,6 @@
-I think that this practical is easy. 
-I learn a lot about matplotlib.pyplot and unmpy.array on the Internet to finish the practical.
-I prefer the spatial_SIR. Because it is 2D which is more interesting than line graphs.
-The most important thing I learned is np.random.choice.
+The concept of the SIR model was relatively straightforward to grasp, as it provided a clear framework for understanding how infectious diseases spread through a population. However, implementing the model in Python proved to be more challenging than expected, particularly when it came to adjusting the code to include variables such as vaccination percentages.
+One of the challenges I faced was getting the spatial SIR model to work correctly. It took several attempts to ensure that the infection spread accurately to neighboring cells without causing errors.
+I think I need to improve my Python coding skills, particularly when it comes to handling arrays and more complex data structures. Additionally, I realized that I should spend more time planning my code with pseudocode before jumping into writing the actual script.
+The most important thing I learned from this practical was the importance of stochasticity in disease modeling. Understanding that running the model multiple times can produce different results due to the probabilistic nature of the model was a crucial insight. It highlighted the complexity of real-world scenarios and the limitations of our predictive capabilities.
+I found the process of building the probabilistic models to be quite engaging. Seeing the different outcomes based on slight modifications to beta and gamma was fascinating. It was intriguing to visualize how changes in these parameters could significantly alter the spread of the disease.
+Overall, I am satisfied with the outcome of this practical. Despite the challenges, I was able to achieve the objectives and produce a working model. I am excited to apply these learnings to more complex problems in the future.
