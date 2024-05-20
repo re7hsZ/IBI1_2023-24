@@ -1,4 +1,3 @@
-# Pseudocode:
 # Import the necessary library for working with the BLOSUM matrix.
 import blosum as bl
 
